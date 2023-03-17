@@ -1,0 +1,67 @@
+body {
+    background: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    text-align: center;
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        background: green;
+    }
+
+    .frame2 {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background: chocolate;
+    }
+
+    .frame2 {
+        display: none;
+    }
+
+    .frame3 {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: blue;
+    }
+    .frame3 {
+        display: none;
+    }
+
+    .frame4 {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background: brown;
+    }
+    /* .frame3 {
+        display: none;
+    } */
+
+    .frame5 {
+        display: block;
+    }
+
+}
